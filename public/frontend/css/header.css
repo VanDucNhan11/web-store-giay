@@ -1,0 +1,52 @@
+/* public/css/header.css */
+header {
+    padding: 10px 0;
+    background-color: #F8B300;
+}
+
+header .navbar-brand img {
+    height: 50px;
+}
+
+header .navbar-nav.mx-auto {
+    flex: 1;
+    justify-content: center; 
+}
+
+header .navbar-nav .nav-link {
+    color: black !important; /* Thay đổi màu chữ thành đen */
+    margin: 0 15px; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+header .navbar-nav .nav-link:hover {
+    background-color: #495057;
+    border-radius: 5px;
+    color: white !important; /* Thay đổi màu chữ khi hover */
+}
+
+header .navbar-nav .nav-link .icon-bell,
+header .navbar-nav .nav-link .icon-cart {
+    font-size: 1.2em; 
+    color: black; 
+}
+
+header .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+header .navbar-toggler-icon {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    header .navbar-nav {
+        text-align: center;
+    }
+
+    header .nav-link {
+        margin: 10px 0; /* Adjust the margin for mobile view */
+    }
+}

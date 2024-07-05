@@ -1,0 +1,189 @@
+.home-container {
+    padding: 50px;
+}
+.product {
+    margin-bottom: 30px;
+}
+.row-2{
+    display: flex;
+}
+.row-2 .product img {
+    height: 461px;
+    width: 360px;
+}
+.product h5 {
+    margin-top: 10px;
+}
+.slide-show { 
+    overflow: hidden;
+    position: relative;
+}
+.list-images {
+    display: flex;
+   transition: 0.5s;
+}
+.btn:hover {
+    color: white;
+}
+.btn {
+    font-size: 45px;
+    color: #999;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn-left {
+    left: 0;
+}
+.btn-right {
+    right: 0;
+}
+.index-images {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.index-item {
+    border: 2px solid #999;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 50%;
+}
+.active {
+    background-color: #999;
+}
+.awe-section-2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.section_about{
+    display: block;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.row img{
+    height: 272px;
+    width: 360px;
+}
+i.fa.fa {
+    font-size: 18px;
+    color: #ffc809;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+    display: flex;
+    flex-direction: column; /* Đảm bảo các phần tử con xếp chồng lên nhau */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+}
+
+.header-content i {
+    margin: 0 10px; /* Khoảng cách giữa icon và chữ */
+}
+
+.section_title_2 {
+    margin: 0;
+    display: inline-block;
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: center;
+    line-height: 1.2; /* Điều chỉnh line-height cho phù hợp */
+}
+
+.section_about .section_title_2 {
+    color: #000;
+}
+
+.descri {
+    margin-top: 20px; /* Thêm khoảng cách phía trên nếu cần */
+    text-align: center;
+}
+
+.more {
+    text-align: center;
+    margin-top: 20px; /* Thêm khoảng cách phía trên nếu cần */
+}
+
+.content .more a {
+    padding: 5px 20px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 4px;
+    color: #000;
+    text-decoration: none;
+    background: transparent;
+    transition: background-color 0.3s, color 0.3s; /* Thêm hiệu ứng chuyển màu mượt mà */
+}
+
+.content .more a:hover {
+    background-color: #ffc809; /* Màu nền khi hover */
+    color: #fff; /* Màu chữ khi hover */
+}
+
+a, .text-link {
+    color: #000;
+    text-decoration: none;
+    background: transparent;
+}
+.content-2 {
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 80%; /* Độ rộng của phần tử */
+    margin: 0 auto; 
+    margin-bottom: 20px;/* Để căn giữa theo chiều ngang của trang */
+}
+.content-2 .more a {
+    padding: 5px 20px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 4px;
+    color: #000;
+    text-decoration: none;
+    background: transparent;
+    transition: background-color 0.3s, color 0.3s; /* Thêm hiệu ứng chuyển màu mượt mà */
+}
+
+.content-2 .more a:hover {
+    background-color: #ffc809; /* Màu nền khi hover */
+    color: #fff; /* Màu chữ khi hover */
+}
+.imglogo {
+    display: flex;
+}
+
+.imglogo img{
+    width: 200px;
+    height: 147px;
+}
