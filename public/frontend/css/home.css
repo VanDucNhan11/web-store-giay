@@ -57,6 +57,10 @@
     background-color: #999;
 }
 .awe-section-2{
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 80%; /* Độ rộng của phần tử */
+    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -69,8 +73,10 @@
     }
 }
 .container{
-    padding-left: 10px;
-    padding-right: 10px;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 70%; /* Độ rộng của phần tử */
+    margin: 0 auto;
 }
 .row {
     margin-right: -10px;

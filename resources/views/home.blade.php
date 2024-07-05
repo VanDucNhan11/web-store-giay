@@ -12,8 +12,6 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-    <!-- Thêm JavaScript của Slick Carousel -->
 </head>
 <body>
     @include('partials.header')
@@ -106,7 +104,10 @@
     <section class="section-3">
         <img src="{{ asset('frontend/img/trangchu-1.png') }}" alt="">
     </section>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></>
+    
+    @include('partials.footer')
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="{{ asset('js/home.js') }}"></script>
