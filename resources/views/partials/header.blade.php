@@ -42,9 +42,18 @@
                     <!-- Thực hiện hiển thị danh sách sản phẩm trong giỏ hàng bằng JavaScript và CSS -->
                 </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ route('login') }}">Đăng Nhập</a>
-            </li>
+            @if(Auth::check())
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/profile') }}">{{ Auth::user()->name }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/logout') }}">Đăng Xuất</a>
+                </li>
+            @else
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('login') }}">Đăng Nhập</a>
+                </li>
+            @endif
         </ul>
     </div>
 </header>
